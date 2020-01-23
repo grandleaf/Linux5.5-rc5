@@ -1,0 +1,3 @@
+cat `find ../src -type f` > all.txt
+wc all.txt
+rm all.txt
